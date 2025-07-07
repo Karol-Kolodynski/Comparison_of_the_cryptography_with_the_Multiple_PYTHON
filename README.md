@@ -1,31 +1,31 @@
-# 🐍 KryptoWątki-Python
+# 🐍 CryptoThreads-Python
 
-Platforma badawcza napisana w języku **Python**, służąca do testowania wydajności algorytmów kryptograficznych (AES, RSA) oraz wielowątkowego przetwarzania tekstu. Projekt umożliwia analizę czasu wykonania, zużycia CPU i pamięci RAM w różnych scenariuszach.
-
----
-
-## 📘 Opis projektu
-
-Celem projektu jest ocena możliwości języka Python w zakresie:
-- szyfrowania i deszyfrowania danych,
-- przetwarzania tekstu z użyciem wielu wątków (ang. multithreading),
-- pomiaru zasobożerności (czas, CPU, RAM),
-- porównania wyników w różnych konfiguracjach.
+A testing platform written in **Python** to test the performance of cryptographic algorithms (AES, RSA) and multithreaded text processing. The project allows the analysis of execution time, CPU and RAM consumption in different scenarios.
 
 ---
 
-## 🔍 Funkcjonalności
+## 📘 Project description
 
-### 🛡 Tryb kryptograficzny:
-- Obsługa szyfrowania i deszyfrowania z wykorzystaniem AES oraz RSA,
-- Możliwość podania własnego tekstu lub generowania losowych danych,
-- Konfiguracja: liczba haseł, długość tekstu, długość klucza.
+The aim of the project is to evaluate the capabilities of the Python language for:
+- encryption and decryption of data,
+- multithreaded text processing,
+- measuring resource consumption (time, CPU, RAM),
+- comparison of results in different configurations.
 
-### 🔄 Tryb wielowątkowego przetwarzania tekstu:
-- Wyszukiwanie słów kluczowych w pliku tekstowym,
-- Możliwość ustawienia liczby wątków, słów do wyszukania i pliku wejściowego,
-- Raportowanie wyników i czasów działania.
+---
 
-### 📊 Pomiar wydajności:
-- Czas wykonania (real/user/system),
-- Zużycie CPU i RAM (przy użyciu biblioteki `psutil`).
+## 🔍 Functionality
+
+## 🛡 Cryptographic mode:
+- Support for encryption and decryption using AES and RSA,
+- Possibility to provide custom text or generate random data,
+- Configuration: number of passwords, text length, key length.
+
+### 🔄 Multi-threaded text processing mode:
+- Search for keywords in a text file,
+- Possibility to set the number of threads, words to search for and input file,
+- Reporting of results and running times.
+
+### 📊 Performance measurement:
+- Execution time,
+- CPU and RAM consumption.
